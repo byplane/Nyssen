@@ -461,6 +461,11 @@ Lignes rajouté par bento but modifier la couleure des informations de contact
 
 .contact_info {
     color: white;
+      
+}
+/* rajouté par bento pour changer la couleure lors de la frappe dans le formulaire */
+
+.form-control.forme {
     
-    
+    color: black;
 }
