@@ -452,3 +452,15 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+
+
+/*
+Lignes rajouté par bento but modifier la couleure des informations de contact
+*/
+
+.contact_info {
+    color: white;
+    
+    
+}
