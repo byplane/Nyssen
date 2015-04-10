@@ -3,10 +3,12 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+html,
 body {
     overflow-x: hidden;
+    height: 100%;
 }
+
 
 p {
 	font-size: 20px;
@@ -94,8 +96,9 @@ header .container {
 }
 
 header img {
+    /*changement bord noir en dessous carrousel*/
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
 }
 
 header .intro-text .name {
@@ -472,6 +475,34 @@ Lignes rajouté par bento but modifier la couleure des informations de contact
 }
 
 #petite_police
+
 {
 font-size: 10px;
+}
+
+/*classe pour page d'accueil carrousel*/
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
 }
