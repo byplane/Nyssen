@@ -125,10 +125,10 @@ header .intro-text .skills {
         font-size: 1.75em;
     }
 }
-
+/* changer taille de la navbar*/
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 2px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -142,7 +142,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 1px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -159,9 +159,9 @@ header .intro-text .skills {
 .navbar a:focus {
     outline: 0;
 }
-/* changement espace lettre navbar a droite*/
+
 .navbar .navbar-nav {
-    letter-spacing: 5px;
+    letter-spacing: 0px;
 }
 
 
@@ -469,4 +469,9 @@ Lignes rajouté par bento but modifier la couleure des informations de contact
 .form-control.forme {
     
     color: black;
+}
+
+#petite_police
+{
+font-size: 10px;
 }
