@@ -487,8 +487,10 @@ font-size: 10px;
 
 
 /* modifier le logo nyssen pour qu'il fasse la taille de la navbar */
-.navbar img {
-    height: 100%
+#petite_police img {
+    height: 40px;
+    float: left;
+    
 
     
 }
