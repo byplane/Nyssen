@@ -4,9 +4,14 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 html,
+body
+{
+    height: 100%;
+}
+
 body {
     overflow-x: hidden;
-    height: 100%;
+    
 }
 
 
@@ -480,6 +485,14 @@ Lignes rajouté par bento but modifier la couleure des informations de contact
 font-size: 10px;
 }
 
+
+/* modifier le logo nyssen pour qu'il fasse la taille de la navbar */
+.navbar img {
+    height: 100%
+
+    
+}
+
 /*classe pour page d'accueil carrousel*/
 .carousel,
 .item,
@@ -526,3 +539,4 @@ footer {
 #premier_slide {
     font-size: 30px
 }
+
