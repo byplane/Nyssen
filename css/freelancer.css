@@ -73,7 +73,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #f39c12;
-    background-color: #000000;
+    background-color: white;
 }
 
 hr.star-primary {
@@ -486,7 +486,7 @@ font-size: 10px;
 }
 
 
-/* modifier le logo nyssen pour qu'il fasse la taille de la navbar */
+/* modifier le logo nyssen pour qu'il fasse la taille de la navbar et qu'il se situe à gauche */
 #petite_police img {
     height: 40px;
     float: left;
