@@ -75,22 +75,22 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-	border-color: #FFBF3B;
-	color: #FFBF3B;
+	border-color:  #f39c12;
+	color:  #f39c12;
 	text-shadow: 0px 0px;
 }
 
 hr.star-light:after {
     color: #f39c12;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 hr.star-primary {
-    border-color: #FFBF3B;
+    border-color:  #f39c12;
 }
 
 hr.star-primary:after {
-    color: #FFBF3B;
+    color:  #f39c12;
     background-color: whitesmoke;
 }
 
@@ -484,7 +484,8 @@ Lignes rajouté par bento but modifier la couleure des informations de contact
 */
 
 .contact_info {
-    color: white;
+    color: #FFBF3B;
+    text-align: center;
       
 }
 /* rajouté par bento pour changer la couleure lors de la frappe dans le formulaire */
@@ -554,6 +555,79 @@ footer {
     
 }
 #premier_slide {
-    font-size: 30px
+    font-size: 30px;
 }
 
+.contact2 {
+    margin-top: 65px;
+}
+/* Accentuation des sous-titres contact */
+.Contact_soussection {
+    font-size: 30px;
+    color: #FF9900;
+    text-align: center;
+    
+}
+
+/*-------- DEBUT GOOGLE MAP ----- */
+.page-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+.page-content.padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.map-contact-container { overflow: hidden; margin-top: 30px; }
+input, textarea {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 15px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;  
+}
+input#name { width: 100%; }
+input#email {	width: 100%; }
+input#subject {	width: 100%; }
+
+#map {
+  float: left;
+  position: relative;
+  width: 55%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 340px;
+  outline: 0;
+  border: 0;
+}
+.contact-form { 
+  float: left;
+  position: relative;
+  width: 45%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.contact-form textarea { 
+  width: 100%; 
+  height: 167px;
+}
+.contact-form button {
+  display: block;
+  float: right;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-color: #ccc;
+}
