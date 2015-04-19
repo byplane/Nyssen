@@ -74,7 +74,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #f39c12;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 hr.star-primary {
@@ -83,7 +83,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #FFBF3B;
-    background-color: #fff;
+    background-color: whitesmoke;
 }
 
 .img-centered {
