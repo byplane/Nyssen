@@ -201,10 +201,16 @@ section h2 {
 	color: #F39C12;
 }
 
+/* coloration fond*/
+
 section.success {
     color: #fff;
-    background: whitesmoke;
+    background: white;
+    border-bottom: 1px solid #F39C12;
+    border-top: 1px solid #f39c12;
 }
+
+
 
 @media(max-width:767px) {
     section {
