@@ -11,6 +11,7 @@ body
 
 body {
     overflow-x: hidden;
+    background-color: whitesmoke;
     
 }
 
@@ -194,7 +195,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #000000;
+    background: whitesmoke;
 }
 
 @media(max-width:767px) {
