@@ -438,9 +438,9 @@ footer .footer-below {
 
 .portfolio-modal .close-modal {
     position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
+    top: 5%;
+    right: 3%;
+    width: 5%;
     height: 75px;
     background-color: transparent;
     cursor: pointer;
@@ -613,3 +613,17 @@ h5 {
     color:#FFBF3B;
 }
 
+/*Classe pour baisser taille des images dans partie services une fois cliqué dessus*/
+.img_responsive2 {
+    height: auto;
+    max-width: 60%;
+}
+
+/*changement couleur bouton caroussel*/
+.btn-slideshow {
+    color: white;
+    background-color: #FFBF3B;
+    border-color: #FFBF3B;
+    padding: 18px 32px;
+    margin-bottom: 20px;
+}
