@@ -549,12 +549,12 @@ footer {
 
 /* permet de centrer du texte sur l'image */
 .center-text {
-    height: 250%;
-    line-height: 90px;
+    height: 40%;
+    line-height: 500px;
     
 }
 #premier_slide {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .contact2 {
