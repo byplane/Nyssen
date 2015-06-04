@@ -482,11 +482,39 @@ footer .footer-below {
 Lignes rajouté par bento but modifier la couleure des informations de contact
 */
 
+.contact2 {
+   
+}
+/* Accentuation des sous-titres contact */
+/*
+.Contact_soussection {
+    font-size: 30px;
+    color: #FF9900;
+    text-align: center;
+    font-weight: 560;
+*/
+    
+/* modification des informations de contact pour y inclure les microformats*/
+
 .contact_info {
     color: #FFBF3B;
-    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    color: #FF9900;
+     margin-top: 65px;   
       
 }
+
+/* pour rendre les "titres" des infos de contact plus discret ce qui met en évidence les informations*/
+.contact_faded {
+    text-align: left;
+    color: darkgray;
+    opacity: 30%;
+    font-size: 15px;
+    
+}
+
+
 /* rajouté par bento pour changer la couleure lors de la frappe dans le formulaire */
 
 .form-control.forme {
@@ -557,17 +585,9 @@ footer {
     font-size: 20px;
 }
 
-.contact2 {
-    margin-top: 65px;
-}
-/* Accentuation des sous-titres contact */
-.Contact_soussection {
-    font-size: 30px;
-    color: #FF9900;
-    text-align: center;
-    font-weight: 560;
+
     
-}
+
 
 /*-------- DEBUT GOOGLE MAP ----- */
 .page-container {
